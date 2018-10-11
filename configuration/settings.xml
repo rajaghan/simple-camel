@@ -23,7 +23,7 @@
 					<pluginRepository>
 						<id>central</id>
 						<name>Maven Central</name>
-						<url>http://nexus/nexus/content/repositories/central/</url>
+						<url>http://nexus-test.192.168.99.100.nip.io/nexus/content/repositories/central/</url>
 						<snapshots>
 							<enabled>false</enabled>
 						</snapshots>
