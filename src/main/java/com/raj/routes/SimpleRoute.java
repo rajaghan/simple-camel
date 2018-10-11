@@ -8,7 +8,7 @@ public class SimpleRoute extends RouteBuilder {
 	public void configure() throws Exception {
 		from("file:/data/input?noop=true")
 		.log("I am here")
-		.to("file:/data/output")
+		.to("file:/data/output");
 	}
 
 }
